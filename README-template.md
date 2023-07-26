@@ -58,35 +58,29 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Vanilla JavaScript 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1. <button type="button"> and <button type="submit"> should listen to different event listeners. 
+- for type button - we can use a click event 
+- for type submit - we should use submit event
+- one thing to note is that: 
+- make sure the click EventListener is attached to the element where the user is expected to click, 
+- but the submit EventListener should be attached to the form element that the user is submitting.
 
-To see how you can add code snippets, see below:
+2. insert elements after and before: 
+- after: 
+- [emailLabel].parentNode.insertBefore([errortext], [emailLabel].nextSibling);
+- before: 
+- parentNode.insertBefore([newNode], [referenceNode]);
+- or use 
+- [referenceNode].insertAdjacentElement('beforebegin', [newNode]);
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+3. there is CSS specificity order, when a css style is not working, be sure to check 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+4. HTML form has built-in validation, if you use submit event listener, the built-in validation would kick in first!
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
