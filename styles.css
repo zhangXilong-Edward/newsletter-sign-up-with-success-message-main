@@ -52,12 +52,32 @@ body {
     padding: 0 5px
 }
 
-button {
+.container form button {
     background-color: hsl(234, 29%, 20%);
     color: #ffffff;
     border: none;
 }
 
+button:hover {
+    color: #000000;
+}
+
+input:focus {
+    
+}
+
+/* below are styles that will be manipulated by DOM */
+.hidden {
+    display: none !important;
+}
+
+.red {
+    background-color:  hsl(4, 100%, 67%) !important;
+}
+
+.color-red{
+    color: red !important;
+}
 
 @media screen and (max-width: 375px) {
 
@@ -98,14 +118,3 @@ button {
     }
 }
 
-.hidden {
-    display: none !important;
-}
-
-.red {
-    background-color:  hsl(4, 100%, 67%) !important;
-}
-
-.color-red{
-    color: red !important;
-}
