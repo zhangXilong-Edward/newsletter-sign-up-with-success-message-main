@@ -79,17 +79,21 @@ input:focus {
     color: red !important;
 }
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 500px) {
 
     .container {
         display: flex;
         flex-direction: column-reverse;
     }
 
+    .container .graphics .img-responsive{
+        width: 100%; 
+    }
 
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
     body {
         background-color: hsl(234, 29%, 20%);
         height: 100vh;

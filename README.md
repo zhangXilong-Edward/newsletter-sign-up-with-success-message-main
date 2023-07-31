@@ -70,6 +70,14 @@ Users should be able to:
 
 4. HTML form has built-in validation, if you use submit event listener, the built-in validation would kick in first!
 
+5. disbale scroll on body: 
+
+body {
+   height: 100%;
+   overflow-y: hidden;
+}
+
+
 
 ### Continued development
 
@@ -79,14 +87,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [ovrelay in CSS](https://www.cssscript.com/minimal-overlay-modal-pure-css/) 
+- [DOM nextSibling](https://www.w3schools.com/jsref/prop_node_nextsibling.asp#:~:text=nextSibling%20vs%20nextElementSibling,not%20text%20and%20comment%20nodes) - This is an amazing article which helped me finally understand DOM nextSibling. I'd recommend it to anyone still learning this concept.
+- [button type difference - submit and button](https://stackoverflow.com/questions/290215/difference-between-input-type-button-and-input-type-submit) and (https://betterprogramming.pub/click-vs-submit-eventlisteners-536b62be9359)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
